@@ -1,78 +1,111 @@
 # GDV Minimal MP3 Player
 
-A lightweight, portable Windows MP3 player focused on simplicity.
+A lightweight, **portable Windows MP3 player** focused on simplicity and control.
 
-No playlists. No libraries.  
+No libraries.  
+No accounts.  
+No clutter.  
+
 Just select a folder and listen.
 
 ---
 
-## ✨ Features
+## Features
 
-- Plays all `.mp3` files in a selected folder (alphabetical order)
-- Previous / Play / Next controls
-- Progress bar with seeking
-- Album artwork display (ID3 embedded covers)
+- Plays all `.mp3` files from a selected folder (alphabetical order)
+- Clean playback controls:
+  - Previous / Play–Pause / Next
+- Progress bar with precise seeking
+- Embedded album artwork support (ID3 cover art)
+- Sidebar track list (toggleable, scrollable)
 - Repeat modes:
   - Play playlist once
   - Repeat playlist
   - Repeat current track
-- Portable — no installation required
+- Fully portable — no installation required
 
 ---
 
-## 🖥️ Requirements
+## System Requirements
 
-- Windows 10 / 11
+- Windows 10 or Windows 11
 - No external dependencies required for the user
 
 ---
 
-## ▶️ How to use
+## How to Use
 
-1. Download the latest release
-2. Extract the ZIP
+1. Download the **latest release**
+2. Extract the ZIP file
 3. Run `GDVPlayer.exe`
 4. Select a folder containing MP3 files
 
+That’s it.
+
 ---
 
-## 🔁 Controls
+## Controls
 
-- **Prev**  
-  - Restarts current track if more than 3 seconds in  
-  - Otherwise goes to previous track
+- **Previous**
+  - Restarts the current track if more than 3 seconds have played
+  - Otherwise switches to the previous track
 - **Play / Pause**
 - **Next**
 - **Repeat button** cycles between:
-  - No repeat
+  - No repeat (play once)
   - Repeat playlist
   - Repeat current track
+- **Playlist button**
+  - Shows / hides the track list sidebar
+  - Click any track to play instantly
 
 ---
 
-## 🔄 Updates
+## Updates
 
-New versions are released periodically.  
-When an update is available, the app will notify you and open the download page.
+New versions are released periodically.
+
+When an update is available:
+- The app will notify you on launch
+- Your browser will automatically open the download page
+
+Simply download the new version and replace the old files.
 
 ---
 
-## 📜 License
+## Portability
+
+GDV Minimal MP3 Player is fully portable:
+- No installer
+- No registry usage
+- Can be run from any folder or USB drive
+
+---
+
+## License
 
 This project is **proprietary software**.
 
-You may use the application, but you may **not** modify, redistribute,
-or reverse engineer it.
+You are allowed to:
+- Use the application for personal purposes
+
+You are **not allowed** to:
+- Modify the application
+- Redistribute the application
+- Reverse engineer the application
 
 See `LICENSE.txt` for full terms.
 
-This application uses libVLC (VideoLAN).
-libVLC is licensed under the GNU LGPL v2.1 or later.
+---
+
+## Third-Party Software
+
+This application uses **libVLC (VideoLAN)**.  
+libVLC is licensed under the **GNU LGPL v2.1 or later**.
 
 ---
 
-## 👤 Author
+## Author
 
 **Γεώργιος Δ. Βάμβουρας**  
-GDV · MP3 Player
+GDV · Minimal MP3 Player
