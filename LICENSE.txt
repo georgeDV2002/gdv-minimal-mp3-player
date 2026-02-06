@@ -1,0 +1,15 @@
+GDV MP3 Player
+Copyright (c) 2026 Γεώργιος Δ. Βάμβουρας
+
+All rights reserved.
+
+Permission is granted to use this software in binary form for personal
+or educational purposes.
+
+You may NOT:
+- modify the software
+- redistribute modified versions
+- reverse engineer, decompile, or disassemble the software
+- use it for commercial purposes without explicit permission
+
+This software is provided "as is", without warranty of any kind.
